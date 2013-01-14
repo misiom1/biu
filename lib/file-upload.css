@@ -1,0 +1,19 @@
+/* 
+
+	As this stylesheet is lazy loaded these styles only apply if JavaScript is enabled
+
+*/	
+
+.file-upload input {
+	position: absolute;
+	top: 0;
+	/*left: 0;*/
+	margin: 0;
+	/* Loses tab index in webkit if width is set to 0 */
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+
+.file-upload { height: 3em; }
+.file-upload,
+.file-upload span {	width: 8em; }	
